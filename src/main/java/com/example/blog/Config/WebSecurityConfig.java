@@ -13,7 +13,7 @@ import org.springframework.security.oauth2.core.oidc.user.OidcUser;
 @ConditionalOnProperty(prefix = "azure", value = "9ec57533-cbc1-43fd-9e10-3579b719e953")
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-
+// modify
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter  {
 	 @Autowired
 	    private OAuth2UserService<OidcUserRequest, OidcUser> oidcUserService;

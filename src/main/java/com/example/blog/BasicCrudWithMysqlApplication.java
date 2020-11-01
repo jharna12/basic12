@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @ComponentScan(basePackages={"com.example.blog.Controller"})
 public class BasicCrudWithMysqlApplication {
-
+     // modify 
 	public static void main(String[] args) {
 		SpringApplication.run(BasicCrudWithMysqlApplication.class, args);
 	}
