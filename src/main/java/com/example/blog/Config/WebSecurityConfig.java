@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.client.oidc.userinfo.OidcUserRequest;
 import org.springframework.security.oauth2.client.userinfo.OAuth2UserService;
 import org.springframework.security.oauth2.core.oidc.user.OidcUser;
 
-@ConditionalOnProperty(prefix = "azure-sample-spring-boot", value = "9ec57533-cbc1-43fd-9e10-3579b719e953")
+@ConditionalOnProperty(prefix = "azure", value = "9ec57533-cbc1-43fd-9e10-3579b719e953")
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 
